@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+.header-main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.header-sub-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.random-info-section-text {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.header-button button {
+    color: #3882F6;
+}
+
+.sign-up-section {
+    background-color: #3882F6;
+}
+
+.footer {
+    background-color: #1F2937;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.quote-section-main-quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+.header-text {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}

@@ -11,6 +11,7 @@ body {
     font-size: 48px;
     font-weight: 800;
     display: flex;
+    width: 250px;
 }
 
 .header-sub-text {
@@ -60,9 +61,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 50vh;
-    width: 100vh;
-    padding: 20px;
-    border: 30px;
+    width: 75vh;
 }
 
 a {
@@ -79,28 +78,35 @@ li {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: bold;
-    padding-top: 12px;
 }
 
 .header-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 12px;
 }
 
 .header-link-container {
     display: flex;
     gap: 16px;
-    padding-top: 12px;
 }
 
 .main-text-container {
     display: flex;
     flex-direction: column;
+    width: 500px;
+}
+
+.text-and-image {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
 }
 
 img {
-    width: 300px;
+    width: 500px;
+    height: 300px;
     display: flex;
 }
 

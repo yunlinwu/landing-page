@@ -39,6 +39,10 @@ body {
 
 .footer {
     background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
 }
 
 .quote-section {
@@ -124,3 +128,36 @@ img {
     justify-content: space-around;
 }
 
+.sign-up-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;
+    padding: 24px;
+}
+
+.sign-up-section-main-text {
+    color: white;
+    font-weight: 400;
+    display: flex;
+    height: 5vh;
+}
+
+.sign-up-section-sub-text {
+    display: flex;
+    color: light white;
+}
+
+.sign-up-button {
+    display: flex;
+    color: white;
+    background-color: #3882F6;
+    padding: 3px;
+    border: 1px;
+}
+
+.sign-up-section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -25,6 +25,7 @@ body {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+    margin: 36px;
 }
 
 .header-button button {
@@ -106,10 +107,38 @@ li {
     padding: 30px;
 }
 
-img {
+#header-image {
     width: 500px;
     height: 300px;
+}
+
+#image-1,
+#image-2,
+#image-3,
+#image-4 {
+    width: 200px;
+    height: 200px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-text-1,
+.image-text-2,
+.image-text-3,
+.image-text-4 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px;
+}
+
+.image-1-container,
+.image-2-container,
+.image-3-container,
+.image-4-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .header-button {
@@ -133,7 +162,8 @@ img {
 
 .random-info-images {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 45px;
 }
 
 .sign-up-section {

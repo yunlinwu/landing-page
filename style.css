@@ -12,7 +12,7 @@ body {
     font-size: 48px;
     font-weight: 800;
     display: flex;
-    width: 250px;
+    width: 290px;
 }
 
 .header-sub-text {
@@ -31,9 +31,11 @@ body {
 .header-button button {
     background-color: #3882F6;
     color: white;
-    border-radius: 18px;
-    padding: 18px;
+    border-radius: 10px;
+    padding: 12px;
     margin: 0px;
+    width: 120px;
+    font-weight: 600;
 }
 
 .footer {
@@ -41,7 +43,7 @@ body {
     color: white;
     display: flex;
     justify-content: center;
-    padding: 18px;
+    padding: 32px;
 }
 
 .quote-section {
@@ -87,7 +89,10 @@ li {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 12px;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    margin: 8px;
 }
 
 .header-link-container {
@@ -105,11 +110,12 @@ li {
     display: flex;
     justify-content: space-evenly;
     padding: 30px;
+    margin: 42px;
 }
 
 #header-image {
-    width: 500px;
-    height: 300px;
+    width: 450px;
+    height: 250px;
 }
 
 #image-1,
@@ -143,6 +149,7 @@ li {
 
 .header-button {
     display: flex;
+    margin-top: 12px;
 }
 
 .main-content {
@@ -208,7 +215,7 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .author {
